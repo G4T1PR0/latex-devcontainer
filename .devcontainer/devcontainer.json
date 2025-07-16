@@ -1,4 +1,6 @@
 {
 	"name": "latex-devcontainer",
-	"image": "ghcr.io/g4t1pr0/latex-devcontainer:latest"
+	"dockerComposeFile": "docker-compose.yml",
+	"service": "app",
+	"workspaceFolder": "/workspaces/${localWorkspaceFolderBasename}"
 }
