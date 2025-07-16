@@ -1,0 +1,51 @@
+documentclass[a4j,12pt]{jreport}
+\title{ {\LaTeX} 動作テスト}
+\date{\today}
+\begin{document}
+\maketitle
+
+\section{はじめに}
+これは {\LaTeX} の動作確認用のテストファイルです。
+\subsection{サブセクション}
+サブセクションのテストです。
+\subsubsection{サブサブセクション}
+サブサブセクションのテストです。
+\paragraph{パラグラフ}
+パラグラフのテストです。
+\subparagraph{サブパラグラフ}
+サブパラグラフのテストです。
+\section{数式のテスト}
+以下は数式のテストです。
+\begin{equation}
+E = mc^2
+\end{equation}
+\section{図のテスト}
+以下は図のテストです。
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.5\textwidth]{example-image-a}
+\caption{サンプル画像}
+\label{fig:sample}
+\end{figure}
+\section{表のテスト}
+以下は表のテストです。
+\begin{table}[h]
+\centering
+\begin{tabular}{|c|c|}
+\hline
+項目1 & 項目2 \\
+\hline
+データ1 & データ2 \\
+\hline
+\end{tabular}
+\caption{サンプル表}
+\label{tab:sample}
+\end{table}
+\section{参考文献のテスト}
+以下は参考文献のテストです。
+\bibliographystyle{plain}
+\bibliography{references}
+\section{結論}
+以上が {\LaTeX} の基本的な動作確認のためのテストファイルです。
+\end{document}
+\endinput

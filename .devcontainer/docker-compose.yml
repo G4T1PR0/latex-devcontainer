@@ -5,6 +5,6 @@ services:
     image: ghcr.io/g4t1pr0/latex-devcontainer:latest
 
     volumes:
-      - ../:/workspace
+      - ../latex-workspace:/workspace
 
     command: sleep infinity
