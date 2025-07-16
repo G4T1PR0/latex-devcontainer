@@ -1,0 +1,6 @@
+{
+	"name": "latex-devcontainer",
+	"build": {
+		"dockerfile": "Dockerfile"
+	}
+}
