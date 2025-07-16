@@ -1,6 +1,4 @@
 {
 	"name": "latex-devcontainer",
-	"build": {
-		"dockerfile": "Dockerfile"
-	}
+	"image": "ghcr.io/g4t1pr0/latex-devcontainer:latest"
 }
